@@ -1,0 +1,16 @@
+/* Navbar links */
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-brand {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover, focus y active */
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus,
+.navbar .navbar-brand:active {
+  color: #e0d04d !important; /* color más oscuro */
+  cursor: pointer;
+}

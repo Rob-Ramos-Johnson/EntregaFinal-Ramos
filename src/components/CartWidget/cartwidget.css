@@ -1,0 +1,28 @@
+.cart-widget {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.cart-icon {
+  width: 36px;
+  height: 36px;
+  transform: none !important;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  shape-rendering: geometricPrecision;
+  color: #fff; /* ajusta según el fondo */
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.cart-icon:hover {
+  transform: scale(1.06);
+  filter: brightness(1.2);
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
